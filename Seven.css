@@ -1,0 +1,33 @@
+
+h1 {
+    background: rgba(221, 221, 221, 0.925);
+}
+
+img {
+    width: 200px;
+    border: 1px solid;
+    border-color: #949494;
+}
+
+.container figure {
+    margin: 0 0 15px 15px;
+    width: 200px;
+    height: 250px;
+}
+
+.container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+    grid-template-rows: 200px 200px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+    font-size: 80%;
+}
