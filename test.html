@@ -6,17 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        #main {
+            border: 0;
+            margin: 0;
+        }
+        #box1 {
+            position: absolute;
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            left: 200px;
+            top: 100px;
+        }
+
+        #box2 {
+            position: relative;
+            background-color: gray;
+            width: 100px;
+            height: 100px;
+            top: 200px;
+            left: 200px
+        }
+
+
+        #box3 {
+            position: absolute;
+            background-color: rosybrown;
+            width: 100px;
+            height: 100px;
+            top: 200px;
+            left: 100px;
+        }
+
+        #box4 {
+            position: absolute;
+            background-color: goldenrod;
+            width: 100px;
+            height: 100px;
+            top: 200px;
+            left: 300px;
+        }
+        
+    </style>
 </head>
+
 <body>
-    <div class="container">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
-        <div class="item">Item 6</div>
-        <div class="item">Item 7</div>
-        <div class="item">Item 8</div>
+    <div id="main">
+        <div id="box1" class="colerbox">a</div>
+        <div id="box2" class="colerbox">b</div>
+        <div id="box3" class="colerbox">c</div>
+        <div id="box4" class="colerbox">d</div>
     </div>
 </body>
 </html>
